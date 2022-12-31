@@ -428,7 +428,7 @@ a {
   height: 62rem;
   overflow: scroll;
   overflow-x: hidden;
-  background: url(../images/bg-chat.png);
+  background: url('/assets/img/bg-chat.png');
   background-repeat: repeat;
 }
 
