@@ -1,6 +1,5 @@
 <template>
   <div class="sidebar">
-
     <StatusHeaderBar />
     <SidebarNotification />
     <SearchChatBar />
@@ -10,16 +9,15 @@
       <ChatListItem />
       <ChatListItem />
     </ChatList>
-
   </div>
 </template>
 
 <script>
-import ChatList from '@/components/ChatList.vue';
-import ChatListItem from '@/components/ChatListItem.vue';
-import StatusHeaderBar from '@/components/StatusHeaderBar.vue';
-import SidebarNotification from '@/components/SidebarNotification.vue';
-import SearchChatBar from '@/components/SearchChatBar.vue';
+import ChatList from "@/components/ChatList.vue";
+import ChatListItem from "@/components/ChatListItem.vue";
+import StatusHeaderBar from "@/components/StatusHeaderBar.vue";
+import SidebarNotification from "@/components/SidebarNotification.vue";
+import SearchChatBar from "@/components/SearchChatBar.vue";
 
 export default {
   components: {
@@ -27,8 +25,7 @@ export default {
     SidebarNotification,
     ChatList,
     ChatListItem,
-    SearchChatBar
+    SearchChatBar,
   },
-
-}
+};
 </script>

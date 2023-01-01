@@ -1,5 +1,4 @@
 <template>
-
   <!-- Alice -->
   <div class="chat">
     <div class="chat-left">
@@ -145,10 +144,7 @@
             class="double-check-mark"
             src="/assets/img/double-check-seen.svg"
           />
-          <img
-            class="microphone-icon"
-            src="/assets/img/microphone-seen.svg"
-          />
+          <img class="microphone-icon" src="/assets/img/microphone-seen.svg" />
           <span class="chat-message">1:24</span>
         </div>
         <div class="chat-right-bottom-right">
@@ -197,10 +193,7 @@
       </div>
       <div class="chat-right-bottom">
         <div class="chat-right-bottom-left">
-          <img
-            class="single-check-mark"
-            src="/assets/img/single-check.svg"
-          />
+          <img class="single-check-mark" src="/assets/img/single-check.svg" />
           <span class="chat-message">Are you there??? 🤔🤔🤔</span>
         </div>
         <div class="chat-right-bottom-right">
