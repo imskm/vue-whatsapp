@@ -2,28 +2,62 @@
   <!-- Alice -->
   <div class="chat">
     <div class="chat-left">
-      <img src="/assets/img/alice.jpg" />
+      <img :src="`${chat.contact_photo_url}`" />
     </div>
     <div class="chat-right">
       <div class="chat-right-top">
-        <span class="contact-name">Alice</span>
-        <span class="chat-date">12:51</span>
+        <span class="contact-name">{{ chat.contact_name }}</span>
+        <span class="chat-date">{{ sentDateTime }}</span>
       </div>
       <div class="chat-right-bottom">
         <div class="chat-right-bottom-left">
-          <img
-            class="double-check-mark"
-            src="/assets/img/double-check-seen.svg"
-          />
-          <span class="chat-message-typing">Alice is typing...</span>
+
+          <!-- Message Status icon (the single, double check) -->
+          <MessageCheckMarker :status="chat.last_message.status" />
+          <!-- .chat-message-typing -->
+          <span class="chat-message">{{ chat.last_message.message.data }}</span>
         </div>
-        <div class="chat-right-bottom-right">
+<!--         <div class="chat-right-bottom-right">
           <span class="unread-messages-number"> 3 </span>
-          <span class="chat-options"
-            ><img src="/assets/img/down-arrow.svg"
-          /></span>
-        </div>
+          <span class="chat-options">
+            <img src="/assets/img/down-arrow.svg"/>
+          </span>
+        </div> -->
       </div>
     </div>
   </div>
 </template>
+<script>
+import MessageCheckMarker from '@/components/MessageCheckMarker.vue';
+
+export default {
+  props: {
+    chat: {
+      type: Object,
+      required: true,
+    },
+  },
+  components: {
+    MessageCheckMarker,
+  },
+
+  data() {
+    return {
+      //
+    };
+  },
+
+  methods: {
+    //
+  },
+
+  computed: {
+
+    sentDateTime() {
+      let t = this.chat.last_message.sent_at;
+      let d = new Date(t);
+      return d.getHours() + ":" + d.getMinutes();
+    }
+  }
+};
+</script>

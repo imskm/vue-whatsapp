@@ -1,12 +1,37 @@
 <template>
   <div class="sender">
     <span class="sender-message-tail">
-      <img src="/assets/img/message-tail-sender.svg"/>
+      <img src="/assets/img/message-tail-sender.svg" />
     </span>
-    <span class="sender-message">Hey! How's it going??</span>
-    <span class="message-time">21:32</span>
+    <span v-if="message.message.type === 'text'" class="sender-message">{{ message.message.data }}</span>
+    <span class="message-time">{{ messageTime }}</span>
     <span class="message-status">
-      <img src="/assets/img/double-check-seen.svg"/>
+      <MessageCheckMarker :status="message.status" />
     </span>
   </div>
 </template>
+<script>
+import MessageCheckMarker from '@/components/MessageCheckMarker.vue';
+
+export default {
+  props: {
+    message: {
+      type: Object,
+      required: true,
+    },
+  },
+
+  components: {
+    MessageCheckMarker,
+  },
+
+  computed: {
+    messageTime() {
+      let sentAt = this.message.sent_at;
+      let date = new Date(sentAt);
+
+      return `${date.getHours()}:${date.getMinutes()}`;
+    },
+  },
+}
+</script>

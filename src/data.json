@@ -4,28 +4,28 @@
 			"id": "conversation_id_001",
 			"contact_name": "Alice",
 			"contact_phone": "9330000000",
-			"contact_photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-			"contact_photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
-			"conversastion": [
+			"contact_photo_url": "/assets/img/alice.jpg",
+			"contact_photo_lg_url": "/assets/img/alice_lg.jpg",
+			"is_group": false,
+			"conversation": [
 				{
 					"sender": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"receiver": {
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"message": {
 						"type": "text",
-						"data": "Hey! How's it going??",
-
+						"data": "Hey! How's it going??"
 					},
 					"sent_at": "2022-12-31 21:32:00",
 					"status": "read"
@@ -35,19 +35,19 @@
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"receiver": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"message": {
 						"type": "text",
-						"data": "I'm doing fine! What about you??",
+						"data": "I'm doing fine! What about you??"
 					},
 					"sent_at": "2022-12-31 21:35:00",
 					"status": "read"
@@ -57,19 +57,19 @@
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"receiver": {
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"message": {
 						"type": "text",
-						"data": "I'm good, but I'm sooo bored 🥱🥱🥱",
+						"data": "I'm good, but I'm sooo bored 🥱🥱🥱"
 					},
 					"sent_at": "2022-12-31 21:35:00",
 					"status": "read"
@@ -79,19 +79,19 @@
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"receiver": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"message": {
 						"type": "text",
-						"data": "Check this out...",
+						"data": "Check this out..."
 					},
 					"sent_at": "2022-12-31 21:36:00",
 					"status": "read"
@@ -101,19 +101,19 @@
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"receiver": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"message": {
 						"type": "text",
-						"data": "😝😝😝",
+						"data": "😝😝😝"
 					},
 					"sent_at": "2022-12-31 21:36:00",
 					"status": "read"
@@ -123,15 +123,15 @@
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"receiver": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"message": {
 						"type": "image",
@@ -145,15 +145,15 @@
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"receiver": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"message": {
 						"type": "image",
@@ -167,15 +167,15 @@
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"receiver": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"message": {
 						"type": "audio",
@@ -189,15 +189,15 @@
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"receiver": {
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"message": {
 						"type": "text",
@@ -211,15 +211,15 @@
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000001",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"receiver": {
 						"id": "123123213123213",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123213.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123213_lg.jpg"
+						"photo_url": "/assets/img/alice.jpg",
+						"photo_lg_url": "/assets/img/alice_lg.jpg"
 					},
 					"message": {
 						"type": "text",
@@ -227,7 +227,7 @@
 					},
 					"sent_at": "2022-12-31 21:39:00",
 					"status": "read"
-				},
+				}
 			]
 		},
 
@@ -236,31 +236,32 @@
 			"id": "conversation_id_002",
 			"contact_name": "Study Group",
 			"contact_phone": "9330000003",
-			"contact_photo_url": "https://127.0.0.1:8888/assets/img/123123213123215.jpg",
-			"contact_photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123215_lg.jpg"
-			"conversastion": [
+			"contact_photo_url": "/assets/img/study-group.jpg",
+			"contact_photo_lg_url": "/assets/img/study-group_lg.jpg",
+			"is_group": true,
+			"conversation": [
 				{
 					"sender": {
 						"id": "123123213123215",
 						"name": "Emily",
 						"phone": "9330000003",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/study-group.jpg.jpg",
+						"photo_lg_url": "/assets/img/study-group.jpg_lg.jpg"
 					},
 					"receiver": {
 						"id": "ME",
 						"name": "Alice",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"message": {
 						"type": "text",
 						"data": "Why is this so difficult????😩😩"
 					},
 					"sent_at": "2022-12-31 21:32:00",
-					"status": "read"
-				},
+					"status": "sent"
+				}
 			]
 		},
 
@@ -269,23 +270,24 @@
 			"id": "conversation_id_003",
 			"contact_name": "David R Cook",
 			"contact_phone": "9330000004",
-			"contact_photo_url": "https://127.0.0.1:8888/assets/img/123123213123216.jpg",
-			"contact_photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123216_lg.jpg"
-			"conversastion": [
+			"contact_photo_url": "/assets/img/david-r-cook.jpg",
+			"contact_photo_lg_url": "/assets/img/david-r-cook_lg.jpg",
+			"is_group": false,
+			"conversation": [
 				{
 					"sender": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"receiver": {
 						"id": "123123213123216",
 						"name": "Emily",
 						"phone": "9330000004",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123216.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123216_lg.jpg"
+						"photo_url": "/assets/img/david-r-cook.jpg",
+						"photo_lg_url": "/assets/img/david-r-cook_lg.jpg"
 					},
 					"message": {
 						"type": "text",
@@ -293,7 +295,7 @@
 					},
 					"sent_at": "2022-12-31 21:32:00",
 					"status": "read"
-				},
+				}
 			]
 		},
 
@@ -302,23 +304,24 @@
 			"id": "conversation_id_004",
 			"contact_name": "Timmy M Harley",
 			"contact_phone": "9330000005",
-			"contact_photo_url": "https://127.0.0.1:8888/assets/img/123123213123217.jpg",
-			"contact_photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123217_lg.jpg"
-			"conversastion": [
+			"contact_photo_url": "/assets/img/timmy-m-harley.jpg",
+			"contact_photo_lg_url": "/assets/img/timmy-m-harley_lg.jpg",
+			"is_group": false,
+			"conversation": [
 				{
 					"sender": {
 						"id": "123123213123217",
 						"name": "Timmy M Harley",
 						"phone": "9330000005",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123217.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123217_lg.jpg"
+						"photo_url": "/assets/img/timmy-m-harley.jpg",
+						"photo_lg_url": "/assets/img/timmy-m-harley_lg.jpg"
 					},
 					"receiver": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"message": {
 						"type": "text",
@@ -326,7 +329,7 @@
 					},
 					"sent_at": "2022-12-31 21:32:00",
 					"status": "read"
-				},
+				}
 			]
 		},
 
@@ -335,23 +338,24 @@
 			"id": "conversation_id_005",
 			"contact_name": "Richard Hamilton",
 			"contact_phone": "9330000005",
-			"contact_photo_url": "https://127.0.0.1:8888/assets/img/123123213123217.jpg",
-			"contact_photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123217_lg.jpg"
-			"conversastion": [
+			"contact_photo_url": "/assets/img/richard-hamilton.jpg",
+			"contact_photo_lg_url": "/assets/img/richard-hamilton_lg.jpg",
+			"is_group": false,
+			"conversation": [
 				{
 					"sender": {
 						"id": "123123213123217",
 						"name": "Richard Hamilton",
 						"phone": "9330000005",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123217.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123217_lg.jpg"
+						"photo_url": "/assets/img/richard-hamilton.jpg",
+						"photo_lg_url": "/assets/img/richard-hamilton_lg.jpg"
 					},
 					"receiver": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"message": {
 						"type": "image",
@@ -359,7 +363,7 @@
 					},
 					"sent_at": "2022-12-30 21:32:00",
 					"status": "received"
-				},
+				}
 			]
 		},
 
@@ -368,23 +372,24 @@
 			"id": "conversation_id_006",
 			"contact_name": "Cristy Gowen",
 			"contact_phone": "9330000006",
-			"contact_photo_url": "https://127.0.0.1:8888/assets/img/123123213123218.jpg",
-			"contact_photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123218_lg.jpg"
-			"conversastion": [
+			"contact_photo_url": "/assets/img/cristy-gowen.jpg",
+			"contact_photo_lg_url": "/assets/img/cristy-gowen_lg.jpg",
+			"is_group": false,
+			"conversation": [
 				{
 					"sender": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"receiver": {
 						"id": "123123213123218",
 						"name": "Cristy Gowen",
 						"phone": "9330000006",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123218.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123218_lg.jpg"
+						"photo_url": "/assets/img/cristy-gowen.jpg",
+						"photo_lg_url": "/assets/img/cristy-gowen_lg.jpg"
 					},
 					"message": {
 						"type": "audio",
@@ -392,7 +397,7 @@
 					},
 					"sent_at": "2020-09-20 21:32:00",
 					"status": "read"
-				},
+				}
 			]
 		},
 
@@ -401,23 +406,24 @@
 			"id": "conversation_id_007",
 			"contact_name": "+1 626-862-6274",
 			"contact_phone": "+1 626-862-6274",
-			"contact_photo_url": "https://127.0.0.1:8888/assets/img/123123213123219.jpg",
-			"contact_photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123219_lg.jpg"
-			"conversastion": [
+			"contact_photo_url": "/assets/img/jason.jpg",
+			"contact_photo_lg_url": "/assets/img/jason_lg.jpg",
+			"is_group": false,
+			"conversation": [
 				{
 					"sender": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"receiver": {
 						"id": "123123213123219",
 						"name": "+1 626-862-6274",
 						"phone": "+1 626-862-6274",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123219.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123219_lg.jpg"
+						"photo_url": "/assets/img/jason.jpg",
+						"photo_lg_url": "/assets/img/jason_lg.jpg"
 					},
 					"message": {
 						"type": "text",
@@ -425,7 +431,7 @@
 					},
 					"sent_at": "2020-09-05 21:32:00",
 					"status": "read"
-				},
+				}
 			]
 		},
 
@@ -434,23 +440,24 @@
 			"id": "conversation_id_008",
 			"contact_name": "Marsha Taylor",
 			"contact_phone": "9330000008",
-			"contact_photo_url": "https://127.0.0.1:8888/assets/img/123123213123219.jpg",
-			"contact_photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123219_lg.jpg"
-			"conversastion": [
+			"contact_photo_url": "/assets/img/marsha-taylor.jpg",
+			"contact_photo_lg_url": "/assets/img/marsha-taylor_lg.jpg",
+			"is_group": false,
+			"conversation": [
 				{
 					"sender": {
 						"id": "ME",
 						"name": "User One",
 						"phone": "9330000000",
-						"photo_url": "https://127.0.0.1:8888/assets/img/ME.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/ME_lg.jpg"
+						"photo_url": "/assets/img/ME.jpg",
+						"photo_lg_url": "/assets/img/ME_lg.jpg"
 					},
 					"receiver": {
 						"id": "123123213123219",
 						"name": "Marsha Taylor",
 						"phone": "9330000008",
-						"photo_url": "https://127.0.0.1:8888/assets/img/123123213123219.jpg",
-						"photo_lg_url": "https://127.0.0.1:8888/assets/img/123123213123219_lg.jpg"
+						"photo_url": "/assets/img/marsha-taylor.jpg",
+						"photo_lg_url": "/assets/img/marsha-taylor_lg.jpg"
 					},
 					"message": {
 						"type": "text",
@@ -458,8 +465,8 @@
 					},
 					"sent_at": "2020-09-05 21:32:00",
 					"status": "sent"
-				},
+				}
 			]
-		},
+		}
 	]
 }

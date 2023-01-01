@@ -1,5 +1,6 @@
 <template>
-<div class="sender">
+  <div>
+    <div class="sender">
       <span class="sender-message-tail"
         ><img src="/assets/img/message-tail-sender.svg"
       /></span>

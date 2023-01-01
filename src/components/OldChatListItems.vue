@@ -38,9 +38,7 @@
       </div>
       <div class="chat-right-bottom">
         <div class="chat-right-bottom-left">
-          <span class="chat-message-group"
-            >Emily: Why is this so difficult????😩😩😩😩😩😩</span
-          >
+          <span class="chat-message-group">Emily: Why is this so difficult????😩😩😩😩😩😩</span>
         </div>
         <div class="chat-right-bottom-right">
           <span class="unread-messages-number"> 1 </span>
