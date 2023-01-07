@@ -5,8 +5,8 @@
     <div class="bottom"></div>
     <!-- App -->
     <AppMainLayout>
-      <AppSidebar />
-      <AppMain />
+      <AppSidebar @on-open-conversation="openConversation" />
+      <AppMain :conversation-id="convId" />
     </AppMainLayout>
   </div>
 </template>
@@ -23,7 +23,14 @@ export default {
     AppMain,
   },
   data() {
-    return {};
+    return {
+      convId: "",
+    };
+  },
+  methods: {
+    openConversation(convId) {
+      this.convId = convId;
+    },
   },
 };
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <ChatHeaderBar :conversations="conversations" />
-    <ChatHistory :conversations="conversations.conversation" />
+    <ChatHistory :conversations="fetchConversations" />
     <ChatMessageBar />
   </div>
 </template>
@@ -14,6 +14,13 @@ import ChatHistory from "@/components/ChatHistory.vue";
 import ChatMessageBar from "@/components/ChatMessageBar.vue";
 
 export default {
+  props: {
+    conversationId: {
+      type: String,
+      required: true,
+    },
+  },
+
   components: {
     ChatHeaderBar,
     ChatHistory,
@@ -27,12 +34,20 @@ export default {
   },
 
   created() {
-    const conversationId = "conversation_id_001";
-    this.conversations = this.userConversations(conversationId);
-    console.log(this.conversations);
+    // 
   },
 
   computed: {
+    fetchConversations() {
+      if (this.conversationId) {
+        this.conversations = this.userConversations(this.conversationId);
+        
+        return this.conversations.conversation;
+      }
+
+      return [];
+    },
+
     ...mapState(useMessageStore, ['userConversations']),
   }
 };

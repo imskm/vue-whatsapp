@@ -9,6 +9,7 @@
         v-for="c in getConversationList"
         :key="c.id"
         :chat="c"
+        @click="openConversation(c.id)"
       />
     </ChatList>
   </div>
@@ -25,6 +26,7 @@ import SidebarNotification from "@/components/SidebarNotification.vue";
 import SearchChatBar from "@/components/SearchChatBar.vue";
 
 export default {
+  emits: ['on-open-conversation'],
   components: {
     StatusHeaderBar,
     SidebarNotification,
@@ -43,7 +45,11 @@ export default {
     this.conversationList = this.getConversationList;
   },
 
-  methods: {},
+  methods: {
+    openConversation(conv_id) {
+      this.$emit('on-open-conversation', conv_id);
+    },
+  },
 
   mounted() {
     // 
