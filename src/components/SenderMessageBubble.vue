@@ -3,7 +3,7 @@
     <span class="sender-message-tail">
       <img src="/assets/img/message-tail-sender.svg" />
     </span>
-    <span v-if="message.message.type === 'text'" class="sender-message">{{ message.message.data }}</span>
+    <span v-if="message.type === 'text'" class="sender-message">{{ message.data }}</span>
     <span class="message-time">{{ messageTime }}</span>
     <span class="message-status">
       <MessageCheckMarker :status="message.status" />

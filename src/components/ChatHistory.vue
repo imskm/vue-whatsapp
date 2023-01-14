@@ -1,8 +1,8 @@
 <template>
   <div class="chat-window">
-    <EmptyComponent v-for="message in conversations">
-      <SenderMessageBubble v-if="message.sender.id == loggedInUserId" :message="message" />
-      <ReceiverMessageBubble v-if="message.receiver.id == loggedInUserId" :message="message" />
+    <EmptyComponent v-for="c in conversations">
+      <SenderMessageBubble v-if="c.message.sender.id == loggedInUserId" :message="c.message" />
+      <ReceiverMessageBubble v-if="c.message.receiver.id == loggedInUserId" :message="c.message" />
     </EmptyComponent>
   </div>
 </template>

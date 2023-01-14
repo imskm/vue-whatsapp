@@ -23,7 +23,7 @@ const useMessageStore = defineStore("messageStore", {
           contact_phone: c.contact_phone,
           contact_photo_url: c.contact_photo_url,
           contact_photo_lg_url: c.contact_photo_lg_url,
-          last_message: c.conversation[c.conversation.length - 1],
+          last_message: c.conversation[c.conversation.length - 1].message,
         });
       });
 

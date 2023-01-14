@@ -3,10 +3,10 @@
     <div class="chat-window-header-left">
       <img
         class="chat-window-contact-image"
-        src="/assets/img/timmy-m-harley.jpg"
+        :src="conversations.contact_photo_url"
       />
       <div class="contact-name-and-status-container">
-        <span class="chat-window-contact-name">Timmy M Harley</span>
+        <span class="chat-window-contact-name">{{ conversations.contact_name }}</span>
         <span class="chat-window-contact-status">Online</span>
       </div>
     </div>
@@ -16,3 +16,14 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    conversations: {
+      type: Object,
+      required: true,
+    }
+  }
+}
+</script>

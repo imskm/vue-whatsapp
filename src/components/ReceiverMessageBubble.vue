@@ -1,12 +1,12 @@
 <template>
-  <div :class="[{'image-message': message.message.type === 'image' }, {'receiver-audio-message': message.message.type === 'audio' }, 'receiver']">
+  <div :class="[{'image-message': message.type === 'image' }, {'receiver-audio-message': message.type === 'audio' }, 'receiver']">
     <span class="receiver-message-tail"><img src="/assets/img/message-tail-receiver.svg"/></span>
     
-    <span class="receiver-message" v-if="message.message.type === 'text'">{{ message.message.data }}</span>
-    <span class="receiver-message" v-if="message.message.type === 'image'">
-      <img :src="`data:image/jpeg;base64,${message.message.data}`" alt="">
+    <span class="receiver-message" v-if="message.type === 'text'">{{ message.data }}</span>
+    <span class="receiver-message" v-if="message.type === 'image'">
+      <img :src="`data:image/jpeg;base64,${message.data}`" alt="">
     </span>
-    <div v-if="message.message.type === 'audio'" class="audio-message">
+    <div v-if="message.type === 'audio'" class="audio-message">
       <div class="audio-message-left">
         <img src="/assets/img/play-audio-icon.svg" />
       </div>

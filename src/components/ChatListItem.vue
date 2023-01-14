@@ -15,7 +15,7 @@
           <!-- Message Status icon (the single, double check) -->
           <MessageCheckMarker :status="chat.last_message.status" />
           <!-- .chat-message-typing -->
-          <span class="chat-message">{{ chat.last_message.message.data }}</span>
+          <span class="chat-message">{{ chat.last_message.data }}</span>
         </div>
 <!--         <div class="chat-right-bottom-right">
           <span class="unread-messages-number"> 3 </span>
